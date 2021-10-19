@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 public class VerifyLogin{
 	
 	
-	//(dataProvider="getData")
+	
  
-	@Test
+	@Test(dataProvider="getData")
 	public void firstTest(String user,String pass) {
 		Initialization init=new Initialization();
 		WebDriver driver=init.DriverInit();
@@ -20,7 +20,7 @@ public class VerifyLogin{
 		driver.close();
 	}
 	
-	/*@DataProvider
+	@DataProvider
 	public  Object[][] getData()
 	{
 		
@@ -34,5 +34,5 @@ public class VerifyLogin{
 		return data;
 
 	}
-	*/
+	
 }
