@@ -25,12 +25,12 @@ public class VerifyLogin{
 	{
 		
 		Object[][] data=new Object[2][2];
+		//for valid credentials login
 		data[0][0]="admin73";
 		data[0][1]="Admin@6100";
+		//for invalid credentials login
 		data[1][0]="Admin7345";
 		data[1][1]="Admin@6100";
-		//data[2][0]="admin73";
-		//data[2][1]="Admin@6100";
 		return data;
 
 	}
