@@ -18,11 +18,6 @@ public class LoginPage extends Initialization{
 		this.driver=driver;
 	}
 
-	
-	
-	
-	
-	
 	public  void GenericLogin(String user,String pass)
 	{
 		
