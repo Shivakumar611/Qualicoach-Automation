@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="109991" started-at="2021-10-19T22:42:59 IST" finished-at="2021-10-19T22:44:49 IST">
+  <suite name="Default suite" duration-ms="105002" started-at="2021-10-20T20:50:59 IST" finished-at="2021-10-20T20:52:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="109991" started-at="2021-10-19T22:42:59 IST" finished-at="2021-10-19T22:44:49 IST">
-      <class name="students.courseenroll">
-        <test-method status="PASS" signature="enrollTest()[pri:0, instance:students.courseenroll@4d41cee]" name="enrollTest" duration-ms="109914" started-at="2021-10-19T22:42:59 IST" finished-at="2021-10-19T22:44:49 IST">
+    <test name="Default test" duration-ms="105002" started-at="2021-10-20T20:50:59 IST" finished-at="2021-10-20T20:52:44 IST">
+      <class name="students.view_down_certificate">
+        <test-method status="PASS" signature="cert()[pri:0, instance:students.view_down_certificate@2833cc44]" name="cert" duration-ms="104949" started-at="2021-10-20T20:50:59 IST" finished-at="2021-10-20T20:52:44 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enrollTest -->
-      </class> <!-- students.courseenroll -->
+        </test-method> <!-- cert -->
+      </class> <!-- students.view_down_certificate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
