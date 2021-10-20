@@ -20,7 +20,7 @@ this.driver=driver;
 
 
 public WebElement hover() {
-return driver.findElement(By.xpath("//div[@cat-id='3'] /a /p[text()='API Automation using REST Assured (Beginners)']"));
+return driver.findElement(By.xpath("//p[text()='ReadyAPI']"));
 }
 
 public WebElement enrollclick() {

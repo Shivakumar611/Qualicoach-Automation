@@ -29,9 +29,8 @@
     </pluginManagement>
   </build>
 </profile>
-
 <profile>
-<id>class2</id>
+<id>class1</id>
 <build>
     <pluginManagement>
       <plugins>
@@ -41,7 +40,7 @@
           <version>3.0.0-M5</version>
            <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng2.xml</suiteXmlFile>
+            <suiteXmlFile>testng1.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
         </plugin>
@@ -50,25 +49,9 @@
   </build>
 </profile>
 
-<profile>
-<id>class3</id>
-<build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
-           <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng3.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
-</profile>
+
+
+
 </profiles>
 
   <properties>

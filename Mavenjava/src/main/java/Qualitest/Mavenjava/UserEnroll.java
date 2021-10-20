@@ -10,7 +10,7 @@ import java.util.Properties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-
+	
 public class UserEnroll extends Gotoadmin {
 	 
 	

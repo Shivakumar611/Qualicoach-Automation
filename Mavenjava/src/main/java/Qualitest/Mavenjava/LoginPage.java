@@ -29,4 +29,18 @@ public class LoginPage extends Initialization{
 		
 	}
 	
+	public void userlogincert() {
+		driver.get("https://test.qualicoach.org/ ");
+		driver.findElement(By.id("username")).sendKeys("user88");
+		driver.findElement(By.id("password")).sendKeys("User@9146");
+		driver.findElement(By.id("loginbtn")).click();
+		}
+	
+	public void userlogin() {
+		driver.get("https://test.qualicoach.org/ ");
+		driver.findElement(By.id("username")).sendKeys("user94");
+		driver.findElement(By.id("password")).sendKeys("User@7014");
+		driver.findElement(By.id("loginbtn")).click();
+		}
+	
 }
