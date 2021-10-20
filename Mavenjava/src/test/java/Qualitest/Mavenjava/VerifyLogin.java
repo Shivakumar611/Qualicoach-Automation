@@ -1,5 +1,7 @@
 package Qualitest.Mavenjava;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -11,7 +13,7 @@ public class VerifyLogin{
 	
  
 	@Test(dataProvider="getData")
-	public void firstTest(String user,String pass) {
+	public void firstTest(String user,String pass) throws IOException {
 		Initialization init=new Initialization();
 		WebDriver driver=init.DriverInit();
 		LoginPage l=new LoginPage(driver);

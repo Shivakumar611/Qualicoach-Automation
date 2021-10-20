@@ -19,6 +19,7 @@ public certificateobject(WebDriver driver) {
 this.driver=driver;
 }
 
+
 public WebElement hover() {
 return driver.findElement(By.xpath("//div[@cat-id='3'] /a /p[text()='ISTQB-ISEB']"));
 }
@@ -35,6 +36,8 @@ return driver.findElement(By.xpath("//div[@class='content'] / div[@id='accordion
 
 public WebElement download_certi() {
 return driver.findElement(By.xpath("//div[@role='main'] /div / div / form / div / input[@type='submit']"));
-
 }
+
+
+
 }

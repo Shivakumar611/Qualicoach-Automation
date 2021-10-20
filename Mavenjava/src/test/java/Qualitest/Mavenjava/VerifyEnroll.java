@@ -8,11 +8,12 @@ import org.testng.annotations.Test;
 public class VerifyEnroll  {
 
 	
-	Initialization init=new Initialization();
+	
 	
 	@Test
 	public void AddUserTest() throws IOException
 	{
+		Initialization init=new Initialization();
 		WebDriver driver=init.DriverInit();
 		UserEnroll e=new UserEnroll(driver);
 		e.getUserEnroll();
