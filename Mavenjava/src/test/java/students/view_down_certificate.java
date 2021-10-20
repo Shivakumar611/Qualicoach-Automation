@@ -21,11 +21,11 @@ public class view_down_certificate {
 
 	private static Logger log = LogManager.getLogger(feedbackTest.class.getName());
 
-	/* MethodName=enrollTest()
+	/* MethodName=cert()
 	 * ReturnType=void
 	 * ParametersCount=0 
 	 * ParameterType=No parameter used
-	 * Description=Method for Enrollment to the Course From Users
+	 * Description=Method for downloading certificate
 	 * PageObject Name=feedbackobject
 	 * Possible Exceptions="NullPointerException","ElementNotFoundException",ElementNotIneractableException"
 	 */

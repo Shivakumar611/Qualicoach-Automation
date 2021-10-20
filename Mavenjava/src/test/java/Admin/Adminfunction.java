@@ -1,8 +1,10 @@
-package Qualitest.Mavenjava;
+package Admin;
 
 import java.io.IOException;
 
 import org.testng.annotations.Test;
+
+import Qualitest.Mavenjava.Initialization;
 
 public class Adminfunction extends Initialization{
 	VerifyLogin v1=new VerifyLogin();

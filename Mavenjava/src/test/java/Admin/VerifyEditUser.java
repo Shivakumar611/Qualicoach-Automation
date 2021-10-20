@@ -1,9 +1,12 @@
-package Qualitest.Mavenjava;
+package Admin;
 
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+
+import Qualitest.Mavenjava.EditUser;
+import Qualitest.Mavenjava.Initialization;
 
 public class VerifyEditUser {
 

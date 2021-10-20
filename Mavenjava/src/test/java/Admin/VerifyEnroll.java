@@ -1,9 +1,12 @@
-package Qualitest.Mavenjava;
+package Admin;
 
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+
+import Qualitest.Mavenjava.Initialization;
+import Qualitest.Mavenjava.UserEnroll;
 
 public class VerifyEnroll  {
 
