@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 	
 public class UserEnroll extends Gotoadmin {
 	 
-	
+//Using 	
 	By users=By.xpath("//a[text()='Users']");
 	By addnewuser=By.xpath("//div[@class='row'] /div[@class='span9'] /ul[@class='unstyled indented-list'] /li[3] /a[text()='Add a new user']");
 	By username=By.cssSelector("input[id='id_username']");
@@ -35,10 +35,10 @@ public class UserEnroll extends Gotoadmin {
 	public void getUserEnroll() throws IOException {
 		
 		Properties p=new Properties();
-		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
+		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
 		p.load(f1);
 		LoginPage l=new LoginPage(driver);
-		l.GenericLogin("admin73","Admin@6100");
+		l.GenericLogin(p.getProperty("admin"),p.getProperty("adminpass"));
 		getDashboard();
 		getAdminstration();
 		
