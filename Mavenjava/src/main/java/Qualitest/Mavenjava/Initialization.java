@@ -3,13 +3,17 @@ package Qualitest.Mavenjava;
 
 import java.io.IOException;
 import java.util.Properties;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 
 public class Initialization {
 	
 	public WebDriver driver;
 	public Properties p = new Properties();
+	private static Logger log = LogManager.getLogger(Initialization.class.getName());
 
 	/* MethodName=DriverInit()
 	 * ReturnType=WebDriver 
@@ -19,10 +23,12 @@ public class Initialization {
 	 */
 
 	public WebDriver DriverInit() throws IOException {
-		
+	
+	// Driver Initialization 
 		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://test.qualicoach.org");
+		log.info("driver initilized");
 		driver.manage().window().maximize();
 		return driver;
 

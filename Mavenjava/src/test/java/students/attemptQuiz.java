@@ -38,8 +38,7 @@ public class attemptQuiz {
 		
 		Initialization init = new Initialization();
 		WebDriver driver = init.DriverInit();
-		log.debug("driver initilized");
-
+		
 		driver.manage().window().maximize();
 
 		LoginPage l = new LoginPage(driver);

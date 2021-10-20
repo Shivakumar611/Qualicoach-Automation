@@ -36,7 +36,7 @@ public class stu_profileTest {
 	// Driver Initialization and User Login from Generic Function
 		Initialization init = new Initialization();
 		WebDriver driver = init.DriverInit();
-		log.info("driver initilized");
+		
 		
 		LoginPage l = new LoginPage(driver);
 		l.userlogin();

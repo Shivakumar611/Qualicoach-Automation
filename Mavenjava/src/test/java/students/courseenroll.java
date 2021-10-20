@@ -38,7 +38,7 @@ public class courseenroll {
 		
 		Initialization init = new Initialization();
 		WebDriver driver = init.DriverInit();
-		log.info("driver initilized");
+		
 		LoginPage l = new LoginPage(driver);
 		l.userlogin();
 		log.info("User loged in");
