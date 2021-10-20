@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Qualitest.Mavenjava.VerifyLogin">
+      <class name="students.courseenroll">
         <methods>
-          <include name="firstTest"/>
+          <include name="enrollTest"/>
         </methods>
-      </class> <!-- Qualitest.Mavenjava.VerifyLogin -->
+      </class> <!-- students.courseenroll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
