@@ -65,11 +65,11 @@ public class view_down_certificate {
 		}
 		catch (NoSuchElementException e) {
 			log.error("not element found");
-			Assert.assertFalse(false);
+			
 		}
 		catch (ElementNotVisibleException e){
 			log.error("element not visible");
-			Assert.assertFalse(false);
+			
 		}
 		catch (Exception e) {
 			log.error("error in downloading");

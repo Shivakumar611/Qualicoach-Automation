@@ -62,7 +62,7 @@ public class courseenroll {
 			log.info("clicked on course");
 		}
 		catch (Exception e) {
-			Assert.assertFalse(false);
+			
 			System.out.println("not a valid course so:" + e);
 		}
 		
@@ -71,7 +71,7 @@ public class courseenroll {
 			log.info("enrolled to course");
 		}
 		catch (Exception e) {
-			Assert.assertFalse(false);
+			
 			System.out.println("Alredy enrolled to the course : \n ");
 			//Logs.error("Alredy enrolled to the course");
 		}

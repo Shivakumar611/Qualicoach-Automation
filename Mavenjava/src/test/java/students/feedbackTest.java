@@ -68,11 +68,11 @@ public class feedbackTest {
 		log.info("clicked on answer button");
 		}catch (NoSuchElementException e) {
 			log.error("not element found");
-			Assert.assertFalse(false);
+			
 		}
 		catch (ElementNotVisibleException e){
 			log.error("element not visible");
-			Assert.assertFalse(false);
+			
 		}
 		catch (Exception e) {
 			log.error("error in feed back");

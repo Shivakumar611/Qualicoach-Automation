@@ -60,7 +60,7 @@ public class attemptQuiz {
 			a.moveToElement(move).click().build().perform();
 			
 		} catch (Exception e) {
-			Assert.assertFalse(false);
+		
 			log.error("No course found");
 			System.out.println("course not found");
 		}
@@ -72,7 +72,7 @@ public class attemptQuiz {
 			qo.attemptquiz().click();
 
 		} catch (Exception e) {
-			Assert.assertFalse(false);
+			
 			log.error("no Attempt quiz button found and 3 attempts are over");
 			System.out.println("alredy attempted quiz");
 		}
@@ -82,7 +82,7 @@ public class attemptQuiz {
 			// qo.startquiz().click();
 			
 		} catch (Exception e) {
-			Assert.assertFalse(false);
+			
 			log.error("No start button found");
 			System.out.println("alredy attempted quiz");
 			

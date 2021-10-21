@@ -10,6 +10,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.asserts.SoftAssert;
 
 public class EditUser extends Gotoadmin {
 
@@ -25,6 +26,7 @@ public class EditUser extends Gotoadmin {
 	}
 
 	public void getEditUser() throws IOException {
+		SoftAssert Assert = new SoftAssert();
 		Properties p=new Properties();
 		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
 		p.load(f1);
@@ -32,6 +34,7 @@ public class EditUser extends Gotoadmin {
 		l.GenericLogin(p.getProperty("admin"),p.getProperty("adminpass"));
 		getDashboard();
 		getAdminstration();
+		try {
 		driver.findElement(users).click();
 		driver.findElement(Edit).click();
 		driver.findElement(textbox).sendKeys("Demo User");
@@ -45,6 +48,11 @@ public class EditUser extends Gotoadmin {
 		dropdown.selectByValue("IN");
 		js.executeScript("window.scrollBy(0,1000)");
 		driver.findElement(update).click();
+		}catch(Exception e) {
+			System.out.println("Exception handled"+e);
+			
+		}
+		Assert.assertAll();
 
 	}
 

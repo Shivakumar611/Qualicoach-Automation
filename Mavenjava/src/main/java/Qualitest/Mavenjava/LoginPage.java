@@ -2,7 +2,9 @@ package Qualitest.Mavenjava;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.WebElement;
+import org.testng.asserts.SoftAssert;
+import org.testng.Assert;
 public class LoginPage extends Initialization {
 	By username = By.name("username");
 	By Password = By.name("password");
@@ -14,17 +16,21 @@ public class LoginPage extends Initialization {
 	}
 
 	public void GenericLogin(String user, String pass) {
-
+		//SoftAssert Assert = new SoftAssert();
 		try {
 		driver.findElement(username).sendKeys(user);
 		driver.findElement(Password).sendKeys(pass);
 		driver.findElement(submit).click();
-		System.out.println("Generic Test case passed");}
+		System.out.println("login sucessfull");
+		
+		}
 		catch(Exception e) {
 		System.out.println("Invalid login");
 		}
 
 	}
+
+
 
 	public void userlogincert() {
 		driver.get("https://test.qualicoach.org/ ");

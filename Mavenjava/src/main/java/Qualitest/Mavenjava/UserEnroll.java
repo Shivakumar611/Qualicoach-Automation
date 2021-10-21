@@ -6,10 +6,18 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 //import java.io.FileInputStream;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
+
+
 	
 public class UserEnroll extends Gotoadmin {
 	 
@@ -24,16 +32,24 @@ public class UserEnroll extends Gotoadmin {
 	By submit=By.cssSelector("input[name='submitbutton']");
 	
 	
+	/* MethodName=getUserEnroll()
+	 * ReturnType=driver
+	 * ParametersCount=2
+	 * ParameterType=no
+	 * Description=Method for verify Method for verify adding user
+	 * Possible Exceptions="NullPointerException","NoSuchElementException",ElementNotIneractableException"
+	 */
 	
 	public UserEnroll(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
 	}
 
-
+	private static Logger log = LogManager.getLogger(UserEnroll.class.getName());
 
 	public void getUserEnroll() throws IOException {
-		
+		//SoftAssert Assert = new SoftAssert();
+	// Driver Initialization and User Login from Generic Function
 		Properties p=new Properties();
 		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
 		p.load(f1);
@@ -42,6 +58,7 @@ public class UserEnroll extends Gotoadmin {
 		getDashboard();
 		getAdminstration();
 		
+		try {
 		driver.findElement(users).click();
 		driver.findElement(addnewuser).click();
 		driver.findElement(username).sendKeys(p.getProperty("username1"));
@@ -53,7 +70,15 @@ public class UserEnroll extends Gotoadmin {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
 		driver.findElement(submit).click();
-		
-		
+		}catch (NoSuchElementException e) {
+			System.out.println("handled no such element exception");
+		}catch (ElementNotVisibleException e){
+			log.error("element not visible");
+			System.out.println("handled exception"+e);
+		}
+		catch (Exception e) {
+			System.out.println("handled exception"+e);
+		}
+		//Assert.assertAll();
 	}
 }
