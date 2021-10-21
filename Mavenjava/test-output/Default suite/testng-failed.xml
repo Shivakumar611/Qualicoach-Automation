@@ -3,11 +3,21 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Admin.VerifyEnroll">
+      <class name="students.courseenroll">
         <methods>
-          <include name="AddUserTest"/>
+          <include name="enrollTest"/>
         </methods>
-      </class> <!-- Admin.VerifyEnroll -->
+      </class> <!-- students.courseenroll -->
+      <class name="students.feedbackTest">
+        <methods>
+          <include name="feedback"/>
+        </methods>
+      </class> <!-- students.feedbackTest -->
+      <class name="students.attemptQuiz">
+        <methods>
+          <include name="Quiz"/>
+        </methods>
+      </class> <!-- students.attemptQuiz -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
