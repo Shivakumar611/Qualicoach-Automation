@@ -2,9 +2,9 @@ package Qualitest.Mavenjava;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.testng.asserts.SoftAssert;
-import org.testng.Assert;
+//import org.openqa.selenium.WebElement;
+//import org.testng.asserts.SoftAssert;
+//import org.testng.Assert;
 public class LoginPage extends Initialization {
 	By username = By.name("username");
 	By Password = By.name("password");
