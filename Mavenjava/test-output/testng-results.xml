@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="107065" started-at="2021-10-21T12:51:23 IST" finished-at="2021-10-21T12:53:10 IST">
+  <suite name="Suite" duration-ms="748908" started-at="2021-10-21T16:43:06 IST" finished-at="2021-10-21T16:55:35 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="107065" started-at="2021-10-21T12:51:23 IST" finished-at="2021-10-21T12:53:10 IST">
-      <class name="Admin.VerifyDeleteUser">
-        <test-method status="PASS" signature="VerifyDeleteTest()[pri:0, instance:Admin.VerifyDeleteUser@436e852b]" name="VerifyDeleteTest" duration-ms="106995" started-at="2021-10-21T12:51:23 IST" finished-at="2021-10-21T12:53:10 IST">
+    <test name="Test" duration-ms="748908" started-at="2021-10-21T16:43:06 IST" finished-at="2021-10-21T16:55:35 IST">
+      <class name="Admin.Adminfunction">
+        <test-method status="PASS" signature="AdminTest()[pri:0, instance:Admin.Adminfunction@32d2fa64]" name="AdminTest" duration-ms="748597" started-at="2021-10-21T16:43:06 IST" finished-at="2021-10-21T16:55:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyDeleteTest -->
-      </class> <!-- Admin.VerifyDeleteUser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- AdminTest -->
+      </class> <!-- Admin.Adminfunction -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
