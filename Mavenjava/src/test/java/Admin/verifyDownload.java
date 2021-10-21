@@ -28,6 +28,6 @@ public class verifyDownload {
 	//creating object of Download and calling function
 		Download d=new Download(driver);
 		d.getDownload();
-		
+		driver.close();
 	}
 }
