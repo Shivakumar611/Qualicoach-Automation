@@ -14,9 +14,10 @@ public class AaUserFunctiontest {
 	public void UserTest() throws IOException {
 	
 		//Generalized function calls
+		a2.enrollTest();
 		a1.Quiz();
 		
-		a2.enrollTest();
+		
 		
 		a3.feedback();
 		
