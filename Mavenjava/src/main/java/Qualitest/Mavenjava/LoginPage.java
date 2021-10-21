@@ -16,7 +16,7 @@ public class LoginPage extends Initialization {
 	}
 
 	public void GenericLogin(String user, String pass) {
-		//SoftAssert Assert = new SoftAssert();
+		
 		try {
 		driver.findElement(username).sendKeys(user);
 		driver.findElement(Password).sendKeys(pass);

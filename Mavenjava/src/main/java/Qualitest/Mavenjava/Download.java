@@ -16,6 +16,14 @@ public class Download extends Gotoadmin{
 	 this.driver=driver;
 	}
 
+ /*MethodName=getDownload()
+	 * ReturnType=void
+	 * ParametersCount=0 
+	 * ParameterType=No
+	 * parameter used = no
+	 * Description=Method for downloading certificate
+	 * Possible Exceptions="NullPointerException","NoSuchElementException","ElementNotIneractableException"
+	 */
 public void getDownload() throws IOException{
 	SoftAssert Assert = new SoftAssert();
 	Properties p=new Properties();

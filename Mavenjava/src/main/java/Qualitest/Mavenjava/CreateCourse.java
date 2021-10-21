@@ -21,14 +21,13 @@ public class CreateCourse extends Gotoadmin {
 		// TODO Auto-generated constructor stub
 		this.driver = driver;
 	}
-	/*MethodName=Quiz() 
-	 * ReturnType=void 
+	/*MethodName=getCreateCours()
+	 * ReturnType=void
 	 * ParametersCount=0 
 	 * ParameterType=No
 	 * parameter used = no
-	 * Description=Method for attempting quiz
-	 * PageObject Name=quizobject Possible
-	 * Exceptions="NullPointerException","NoSuchElementException","ElementNotIneractableException"
+	 * Description=Method for creating course
+	 * Possible Exceptions="NullPointerException","NoSuchElementException","ElementNotIneractableException"
 	 */
 
 	public void getCreateCours() throws IOException {

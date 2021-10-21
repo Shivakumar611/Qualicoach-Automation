@@ -48,7 +48,7 @@ public class UserEnroll extends Gotoadmin {
 	private static Logger log = LogManager.getLogger(UserEnroll.class.getName());
 
 	public void getUserEnroll() throws IOException {
-		//SoftAssert Assert = new SoftAssert();
+		
 	// Driver Initialization and User Login from Generic Function
 		Properties p=new Properties();
 		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
@@ -79,6 +79,6 @@ public class UserEnroll extends Gotoadmin {
 		catch (Exception e) {
 			System.out.println("handled exception"+e);
 		}
-		//Assert.assertAll();
+		
 	}
 }

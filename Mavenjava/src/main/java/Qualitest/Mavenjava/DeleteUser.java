@@ -23,6 +23,14 @@ public class DeleteUser extends Gotoadmin {
 		this.driver = driver;
 	}
 
+	/*MethodName=getDelete()
+	 * ReturnType=void
+	 * ParametersCount=0 
+	 * ParameterType=No
+	 * parameter used = no
+	 * Description=Method for deleting user
+	 * Possible Exceptions="NullPointerException","NoSuchElementException","ElementNotIneractableException"
+	 */
 	public void getDelete() throws IOException {
 		SoftAssert Assert = new SoftAssert();
 		Properties p = new Properties();

@@ -24,6 +24,15 @@ public class EditUser extends Gotoadmin {
 	public EditUser(WebDriver driver) {
 		this.driver = driver;
 	}
+	
+	/*MethodName=getEditUser()
+	 * ReturnType=void
+	 * ParametersCount=0 
+	 * ParameterType=No
+	 * parameter used = no
+	 * Description=Method for edit user
+	 * Possible Exceptions="NullPointerException","NoSuchElementException","ElementNotIneractableException"
+	 */
 
 	public void getEditUser() throws IOException {
 		SoftAssert Assert = new SoftAssert();
