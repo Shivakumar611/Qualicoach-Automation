@@ -30,7 +30,7 @@ public class view_down_certificate {
 	 * Possible Exceptions="NullPointerException","ElementNotFoundException",ElementNotIneractableException"
 	 */
 	
-	public void cert() throws IOException {
+	public void cert() throws IOException, InterruptedException {
 		SoftAssert Assert = new SoftAssert();
 
 	// Driver Initialization and User Login from Generic Function
@@ -76,5 +76,7 @@ public class view_down_certificate {
 			System.out.println("error in downloading \n" +e);
 		}
 		Assert.assertAll();
+		Thread.sleep(3000);
+		driver.quit();
 	}
 }

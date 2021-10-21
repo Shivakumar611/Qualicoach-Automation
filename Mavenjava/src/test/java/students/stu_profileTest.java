@@ -73,6 +73,7 @@ public class stu_profileTest {
 			System.out.println("no button found for feedback \n" +e);
 		}
 		Assert.assertAll();
+		driver.close();
 
 	}
 }

@@ -45,8 +45,8 @@ public class CreateCourse extends Gotoadmin {
 			driver.findElement(manage).click();
 			driver.findElement(createNewuser).click();
 		//sending coursename and short name
-			driver.findElement(By.id("id_fullname")).sendKeys("Automation selenium");
-			driver.findElement(By.id("id_shortname")).sendKeys("selenium java");
+			driver.findElement(By.id("id_fullname")).sendKeys("Automation selenium123");
+			driver.findElement(By.id("id_shortname")).sendKeys("selenium java123");
 		//selecting dates of starting and ending from drop down menu
 			WebElement drop1 = driver.findElement(By.id("id_startdate_day"));
 			Select dropdown1 = new Select(drop1);
@@ -61,7 +61,7 @@ public class CreateCourse extends Gotoadmin {
 			driver.findElement(By.cssSelector("input#id_enddate_enabled")).click();
 			System.out.println(driver.findElement(By.cssSelector("input#id_enddate_enabled")).isEnabled());
 		//entering id number	
-			driver.findElement(By.id("id_idnumber")).sendKeys("001");
+			driver.findElement(By.id("id_idnumber")).sendKeys("00101");
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,500)");
 		//
@@ -69,9 +69,11 @@ public class CreateCourse extends Gotoadmin {
 			driver.findElement(By.cssSelector("div#id_summary_editoreditable"))
 					.sendKeys("This course contains Selenium Java courses for Begineer's");
 			js.executeScript("window.scrollBy(0,1000)");
+			Assert.assertTrue(driver.findElement(By.cssSelector("input#id_saveanddisplay")).isDisplayed());
 			driver.findElement(By.cssSelector("input#id_saveanddisplay")).click();
 		} catch (Exception e) {
-			System.out.println("Exception handled on enrolling course");
+			System.out.println("Exception handled course alredy exists");
+			
 
 		}
 		Assert.assertAll();

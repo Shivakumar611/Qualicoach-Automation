@@ -27,6 +27,7 @@ public class VerifyCourse {
 	// creating object of CreateCourse and calling function
 		CreateCourse c = new CreateCourse(driver);
 		c.getCreateCours();
+		driver.close();
 	}
 
 }

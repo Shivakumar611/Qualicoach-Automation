@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
    <classes>
-      <class name="students.Studentfunction"/>
+      <class name="students.AaUserFunctiontest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

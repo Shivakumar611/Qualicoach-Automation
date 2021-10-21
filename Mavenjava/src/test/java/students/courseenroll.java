@@ -77,6 +77,7 @@ public class courseenroll {
 		}
 		
 		Assert.assertAll();
+		driver.close();
 
 	}//End Of Method
 }//End of Class

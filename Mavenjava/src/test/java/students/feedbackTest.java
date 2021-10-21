@@ -82,6 +82,7 @@ public class feedbackTest {
 	
 		
 		Assert.assertAll();
+		driver.close();
 
 	}
 }

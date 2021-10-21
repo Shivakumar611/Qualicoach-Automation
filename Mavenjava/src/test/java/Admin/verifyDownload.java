@@ -21,13 +21,14 @@ public class verifyDownload {
 	Initialization init=new Initialization();
 	
 	@Test
-	public void DownloadTest() throws IOException
+	public void DownloadTest() throws IOException, InterruptedException
 	{
 	// Driver Initialization and User Login from Generic Function
 		WebDriver driver=init.DriverInit();
 	//creating object of Download and calling function
 		Download d=new Download(driver);
 		d.getDownload();
+		Thread.sleep(3000);
 		driver.close();
 	}
 }

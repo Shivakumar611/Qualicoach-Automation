@@ -89,5 +89,6 @@ public class attemptQuiz {
 		}
 		
 		Assert.assertAll();
+		driver.close();
 	}
 }

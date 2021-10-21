@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="748908" started-at="2021-10-21T16:43:06 IST" finished-at="2021-10-21T16:55:35 IST">
+  <suite name="Suite" duration-ms="239945" started-at="2021-10-21T21:29:31 IST" finished-at="2021-10-21T21:33:31 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="748908" started-at="2021-10-21T16:43:06 IST" finished-at="2021-10-21T16:55:35 IST">
-      <class name="Admin.Adminfunction">
-        <test-method status="PASS" signature="AdminTest()[pri:0, instance:Admin.Adminfunction@32d2fa64]" name="AdminTest" duration-ms="748597" started-at="2021-10-21T16:43:06 IST" finished-at="2021-10-21T16:55:34 IST">
+    <test name="Test" duration-ms="239945" started-at="2021-10-21T21:29:31 IST" finished-at="2021-10-21T21:33:31 IST">
+      <class name="students.view_down_certificate">
+        <test-method status="PASS" signature="cert()[pri:0, instance:students.view_down_certificate@59906517]" name="cert" duration-ms="48938" started-at="2021-10-21T21:32:42 IST" finished-at="2021-10-21T21:33:31 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AdminTest -->
-      </class> <!-- Admin.Adminfunction -->
+        </test-method> <!-- cert -->
+      </class> <!-- students.view_down_certificate -->
+      <class name="students.stu_profileTest">
+        <test-method status="PASS" signature="studentProfile()[pri:0, instance:students.stu_profileTest@cb51256]" name="studentProfile" duration-ms="50227" started-at="2021-10-21T21:31:52 IST" finished-at="2021-10-21T21:32:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentProfile -->
+      </class> <!-- students.stu_profileTest -->
+      <class name="students.courseenroll">
+        <test-method status="PASS" signature="enrollTest()[pri:0, instance:students.courseenroll@38bc8ab5]" name="enrollTest" duration-ms="52056" started-at="2021-10-21T21:29:31 IST" finished-at="2021-10-21T21:30:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enrollTest -->
+      </class> <!-- students.courseenroll -->
+      <class name="students.attemptQuiz">
+        <test-method status="PASS" signature="Quiz()[pri:0, instance:students.attemptQuiz@42d8062c]" name="Quiz" duration-ms="43716" started-at="2021-10-21T21:30:23 IST" finished-at="2021-10-21T21:31:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quiz -->
+      </class> <!-- students.attemptQuiz -->
+      <class name="students.feedbackTest">
+        <test-method status="PASS" signature="feedback()[pri:0, instance:students.feedbackTest@6043cd28]" name="feedback" duration-ms="44929" started-at="2021-10-21T21:31:07 IST" finished-at="2021-10-21T21:31:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedback -->
+      </class> <!-- students.feedbackTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

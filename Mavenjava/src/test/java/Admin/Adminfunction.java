@@ -16,8 +16,8 @@ public class Adminfunction extends Initialization {
 	VerifyCourse v5 = new VerifyCourse();
 	verifyDownload v6 = new verifyDownload();
 
-	@Test
-	public void AdminTest() throws IOException {
+	//@Test
+	public void AdminTest() throws IOException, InterruptedException {
 	//Generalized function calls
 		v1.firstTest("admin73", "Admin@6100");
 
