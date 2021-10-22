@@ -20,7 +20,7 @@ import pageobjects.feedbackobject;
 @Test
 public class feedbackTest {
 
-	private static Logger log = LogManager.getLogger(feedbackTest.class.getName());
+	public static Logger log = LogManager.getLogger(feedbackTest.class.getName());
 	
 	/* MethodName=enrollTest()
 	 * ReturnType=void

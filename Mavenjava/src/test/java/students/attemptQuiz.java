@@ -17,7 +17,7 @@ import pageobjects.quizobject;
 @Test
 public class attemptQuiz {
 
-	private static Logger log = LogManager.getLogger(attemptQuiz.class.getName());
+	public static Logger log = LogManager.getLogger(attemptQuiz.class.getName());
 
 	/*
 	 * MethodName=Quiz() 

@@ -19,7 +19,7 @@ import pageobjects.Enrollobjects;
 @Test
 public class courseenroll {
 
-	private static Logger log = LogManager.getLogger(courseenroll.class.getName());
+	public static Logger log = LogManager.getLogger(courseenroll.class.getName());
 	
 	/* MethodName=enrollTest()
 	 * ReturnType=void

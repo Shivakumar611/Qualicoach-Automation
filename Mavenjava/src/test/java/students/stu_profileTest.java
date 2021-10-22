@@ -17,7 +17,7 @@ import pageobjects.studentProfObj;
 @Test
 public class stu_profileTest {
 
-	private static Logger log = LogManager.getLogger(stu_profileTest.class.getName());
+	public static Logger log = LogManager.getLogger(stu_profileTest.class.getName());
 
 	/*
 	 * MethodName=studentProfile() 
