@@ -11,7 +11,7 @@
   <url>http://maven.apache.org</url>
 <profiles>
 <profile>
-<id>AdminTest</id>
+<id>Admintest</id>
 <build>
     <pluginManagement>
       <plugins>
@@ -21,17 +21,17 @@
           <version>3.0.0-M5</version>
            <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>testng3.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
         </plugin>
       </plugins>
-    </pluginManagement>
+    </pluginManagement>	
   </build>
 </profile>
 
 <profile>
-<id>StudentTest</id>
+<id>Studentest</id>
 <build>
     <pluginManagement>
       <plugins>
@@ -41,7 +41,7 @@
           <version>3.0.0-M5</version>
            <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng1.xml</suiteXmlFile>
+            <suiteXmlFile>testng4.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
         </plugin>
@@ -61,7 +61,8 @@
           <version>3.0.0-M5</version>
            <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng2.xml</suiteXmlFile>
+           <suiteXmlFile>testng3.xml</suiteXmlFile>
+           <suiteXmlFile>testng4.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
         </plugin>
@@ -69,7 +70,6 @@
     </pluginManagement>
   </build>
 </profile>
-
 </profiles>
 
   <properties>
