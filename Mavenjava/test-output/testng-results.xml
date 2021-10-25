@@ -1,75 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="349244" started-at="2021-10-22T12:48:04 IST" finished-at="2021-10-22T12:53:53 IST">
+  <suite name="Suite" duration-ms="244566" started-at="2021-10-25T14:15:47 IST" finished-at="2021-10-25T14:19:52 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="349244" started-at="2021-10-22T12:48:04 IST" finished-at="2021-10-22T12:53:53 IST">
-      <class name="Admin.VerifyLogin">
-        <test-method status="PASS" signature="firstTest(java.lang.String,java.lang.String)[pri:0, instance:Admin.VerifyLogin@12cdcf4]" name="firstTest" duration-ms="37619" started-at="2021-10-22T12:50:22 IST" data-provider="getData" finished-at="2021-10-22T12:51:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin63]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@6101]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="244566" started-at="2021-10-25T14:15:47 IST" finished-at="2021-10-25T14:19:52 IST">
+      <class name="students.view_down_certificate">
+        <test-method status="PASS" signature="cert()[pri:0, instance:students.view_down_certificate@12cdcf4]" name="cert" duration-ms="47622" started-at="2021-10-25T14:19:04 IST" finished-at="2021-10-25T14:19:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="firstTest(java.lang.String,java.lang.String)[pri:0, instance:Admin.VerifyLogin@12cdcf4]" name="firstTest" duration-ms="12705" started-at="2021-10-22T12:51:00 IST" data-provider="getData" finished-at="2021-10-22T12:51:13 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin7345]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin@6100]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- cert -->
+      </class> <!-- students.view_down_certificate -->
+      <class name="students.stu_profileTest">
+        <test-method status="PASS" signature="studentProfile()[pri:0, instance:students.stu_profileTest@25af5db5]" name="studentProfile" duration-ms="55095" started-at="2021-10-25T14:18:09 IST" finished-at="2021-10-25T14:19:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-      </class> <!-- Admin.VerifyLogin -->
-      <class name="Admin.VerifyEditUser">
-        <test-method status="PASS" signature="EditUserTest()[pri:0, instance:Admin.VerifyEditUser@5f3a4b84]" name="EditUserTest" duration-ms="59997" started-at="2021-10-22T12:52:09 IST" finished-at="2021-10-22T12:53:09 IST">
+        </test-method> <!-- studentProfile -->
+      </class> <!-- students.stu_profileTest -->
+      <class name="students.courseenroll">
+        <test-method status="PASS" signature="enrollTest()[pri:0, instance:students.courseenroll@7a9273a8]" name="enrollTest" duration-ms="47238" started-at="2021-10-25T14:15:47 IST" finished-at="2021-10-25T14:16:34 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EditUserTest -->
-      </class> <!-- Admin.VerifyEditUser -->
-      <class name="Admin.VerifyCourse">
-        <test-method status="PASS" signature="VerifyUserTest()[pri:0, instance:Admin.VerifyCourse@e874448]" name="VerifyUserTest" duration-ms="75512" started-at="2021-10-22T12:49:07 IST" finished-at="2021-10-22T12:50:22 IST">
+        </test-method> <!-- enrollTest -->
+      </class> <!-- students.courseenroll -->
+      <class name="students.attemptQuiz">
+        <test-method status="PASS" signature="Quiz()[pri:0, instance:students.attemptQuiz@59906517]" name="Quiz" duration-ms="46411" started-at="2021-10-25T14:16:34 IST" finished-at="2021-10-25T14:17:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyUserTest -->
-      </class> <!-- Admin.VerifyCourse -->
-      <class name="Admin.VerifyDeleteUser">
-        <test-method status="PASS" signature="VerifyDeleteTest()[pri:0, instance:Admin.VerifyDeleteUser@5bcea91b]" name="VerifyDeleteTest" duration-ms="56143" started-at="2021-10-22T12:51:13 IST" finished-at="2021-10-22T12:52:09 IST">
+        </test-method> <!-- Quiz -->
+      </class> <!-- students.attemptQuiz -->
+      <class name="students.feedbackTest">
+        <test-method status="PASS" signature="feedback()[pri:0, instance:students.feedbackTest@5bfbf16f]" name="feedback" duration-ms="48169" started-at="2021-10-25T14:17:21 IST" finished-at="2021-10-25T14:18:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyDeleteTest -->
-      </class> <!-- Admin.VerifyDeleteUser -->
-      <class name="Admin.VerifyEnroll">
-        <test-method status="PASS" signature="AddUserTest()[pri:0, instance:Admin.VerifyEnroll@8646db9]" name="AddUserTest" is-config="true" duration-ms="63111" started-at="2021-10-22T12:48:04 IST" finished-at="2021-10-22T12:49:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddUserTest -->
-      </class> <!-- Admin.VerifyEnroll -->
-      <class name="Admin.verifyDownload">
-        <test-method status="PASS" signature="DownloadTest()[pri:0, instance:Admin.verifyDownload@37374a5e]" name="DownloadTest" duration-ms="44107" started-at="2021-10-22T12:53:09 IST" finished-at="2021-10-22T12:53:53 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DownloadTest -->
-      </class> <!-- Admin.verifyDownload -->
+        </test-method> <!-- feedback -->
+      </class> <!-- students.feedbackTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
