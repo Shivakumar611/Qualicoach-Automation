@@ -18,6 +18,7 @@ import pageobjects.studentProfObj;
 public class stu_profileTest {
 
 	public static Logger log = LogManager.getLogger(stu_profileTest.class.getName());
+	
 
 	/*
 	 * MethodName=studentProfile() 
@@ -44,7 +45,7 @@ public class stu_profileTest {
 		driver.manage().window().maximize();
 		
 	//Creating Objects of PageObject Class and performing User edit
-		studentProfObj sp = new studentProfObj(driver);
+		studentProfObj sp = new studentProfObj(driver);		
 		
 		try {
 		sp.userclick().click();

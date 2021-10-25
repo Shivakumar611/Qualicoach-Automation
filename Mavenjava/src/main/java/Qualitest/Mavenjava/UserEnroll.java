@@ -52,11 +52,12 @@ public class UserEnroll extends Gotoadmin {
 		Properties p=new Properties();
 		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
 		p.load(f1);
+	//Going to Login Page and admin dash board
 		LoginPage l=new LoginPage(driver);
 		l.GenericLogin(p.getProperty("admin"),p.getProperty("adminpass"));
 		getDashboard();
 		getAdminstration();
-		
+	//Enrolling users from admin panel
 		try {
 		driver.findElement(users).click();
 		driver.findElement(addnewuser).click();

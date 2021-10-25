@@ -39,10 +39,12 @@ public class EditUser extends Gotoadmin {
 		Properties p=new Properties();
 		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Mavenjava\\input.properties");
 		p.load(f1);
+	//Login page execting along with going to dashboard
 		LoginPage l=new LoginPage(driver);
 		l.GenericLogin(p.getProperty("admin"),p.getProperty("adminpass"));
 		getDashboard();
 		getAdminstration();
+	//editing user Profile	
 		try {
 		driver.findElement(users).click();
 		driver.findElement(Edit).click();
@@ -58,7 +60,7 @@ public class EditUser extends Gotoadmin {
 		js.executeScript("window.scrollBy(0,1000)");
 		driver.findElement(update).click();
 		}catch(Exception e) {
-			System.out.println("Exception handled"+e);
+			System.out.println("Exception handled for edit user"+e);
 			
 		}
 		Assert.assertAll();

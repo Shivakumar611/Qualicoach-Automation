@@ -45,7 +45,7 @@ public class DeleteUser extends Gotoadmin {
 		try {
 			driver.findElement(users).click();
 			driver.findElement(Edit).click();
-			driver.findElement(textbox).sendKeys("userquali");
+			driver.findElement(textbox).sendKeys("userquali123");
 			driver.findElement(filter).click();
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,1000)");
