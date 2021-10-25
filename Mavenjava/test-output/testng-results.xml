@@ -1,41 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="244566" started-at="2021-10-25T14:15:47 IST" finished-at="2021-10-25T14:19:52 IST">
+  <suite name="Default suite" duration-ms="11254" started-at="2021-10-25T16:20:06 IST" finished-at="2021-10-25T16:20:17 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="244566" started-at="2021-10-25T14:15:47 IST" finished-at="2021-10-25T14:19:52 IST">
-      <class name="students.view_down_certificate">
-        <test-method status="PASS" signature="cert()[pri:0, instance:students.view_down_certificate@12cdcf4]" name="cert" duration-ms="47622" started-at="2021-10-25T14:19:04 IST" finished-at="2021-10-25T14:19:52 IST">
+    <test name="Default test" duration-ms="11254" started-at="2021-10-25T16:20:06 IST" finished-at="2021-10-25T16:20:17 IST">
+      <class name="Admin.VerifyDeleteUser">
+        <test-method status="FAIL" signature="VerifyDeleteTest()[pri:0, instance:Admin.VerifyDeleteUser@3e57cd70]" name="VerifyDeleteTest" duration-ms="11187" started-at="2021-10-25T16:20:06 IST" finished-at="2021-10-25T16:20:17 IST">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Shivu\git\repository3\Mavenjava\src\main\java\Qualitest\Mavenjava\input.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Shivu\git\repository3\Mavenjava\src\main\java\Qualitest\Mavenjava\input.properties (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at Qualitest.Admin.DeleteUser.getDelete(DeleteUser.java:37)
+at Admin.VerifyDeleteUser.VerifyDeleteTest(VerifyDeleteUser.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cert -->
-      </class> <!-- students.view_down_certificate -->
-      <class name="students.stu_profileTest">
-        <test-method status="PASS" signature="studentProfile()[pri:0, instance:students.stu_profileTest@25af5db5]" name="studentProfile" duration-ms="55095" started-at="2021-10-25T14:18:09 IST" finished-at="2021-10-25T14:19:04 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- studentProfile -->
-      </class> <!-- students.stu_profileTest -->
-      <class name="students.courseenroll">
-        <test-method status="PASS" signature="enrollTest()[pri:0, instance:students.courseenroll@7a9273a8]" name="enrollTest" duration-ms="47238" started-at="2021-10-25T14:15:47 IST" finished-at="2021-10-25T14:16:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enrollTest -->
-      </class> <!-- students.courseenroll -->
-      <class name="students.attemptQuiz">
-        <test-method status="PASS" signature="Quiz()[pri:0, instance:students.attemptQuiz@59906517]" name="Quiz" duration-ms="46411" started-at="2021-10-25T14:16:34 IST" finished-at="2021-10-25T14:17:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Quiz -->
-      </class> <!-- students.attemptQuiz -->
-      <class name="students.feedbackTest">
-        <test-method status="PASS" signature="feedback()[pri:0, instance:students.feedbackTest@5bfbf16f]" name="feedback" duration-ms="48169" started-at="2021-10-25T14:17:21 IST" finished-at="2021-10-25T14:18:09 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feedback -->
-      </class> <!-- students.feedbackTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- VerifyDeleteTest -->
+      </class> <!-- Admin.VerifyDeleteUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

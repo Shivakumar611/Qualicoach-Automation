@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import Qualitest.Admin.Initialization;
 
-public class Adminfunction extends Initialization {
+public class Dummyfunction extends Initialization {
 
 //Generalized object creation
 	VerifyLogin v1 = new VerifyLogin();

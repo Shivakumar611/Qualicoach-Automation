@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
-public class AaUserFunctiontest {
+public class dummyfunction {
 	// Generalized object creation
 
 	attemptQuiz a1 = new attemptQuiz();
