@@ -15,7 +15,7 @@ import org.testng.asserts.SoftAssert;
 
 import Qualitest.Admin.Initialization;
 import Qualitest.Admin.LoginPage;
-import pageobjects.certificateobject;
+import pageobjects_Student.certificateobject;
 
 @Test
 public class view_down_certificate {

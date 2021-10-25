@@ -1,4 +1,4 @@
-package pageobjects;
+package pageobjects_Student;
 
 
 import org.openqa.selenium.By;

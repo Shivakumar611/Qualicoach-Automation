@@ -15,7 +15,7 @@ import org.testng.asserts.SoftAssert;
 
 import Qualitest.Admin.Initialization;
 import Qualitest.Admin.LoginPage;
-import pageobjects.feedbackobject;
+import pageobjects_Student.feedbackobject;
 
 @Test
 public class feedbackTest {

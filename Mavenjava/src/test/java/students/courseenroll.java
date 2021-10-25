@@ -13,7 +13,7 @@ import org.testng.asserts.SoftAssert;
 
 import Qualitest.Admin.Initialization;
 import Qualitest.Admin.LoginPage;
-import pageobjects.Enrollobjects;
+import pageobjects_Student.Enrollobjects;
 
 
 @Test

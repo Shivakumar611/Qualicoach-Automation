@@ -12,7 +12,7 @@ import org.testng.asserts.SoftAssert;
 
 import Qualitest.Admin.Initialization;
 import Qualitest.Admin.LoginPage;
-import pageobjects.studentProfObj;
+import pageobjects_Student.studentProfObj;
 
 @Test
 public class stu_profileTest {
