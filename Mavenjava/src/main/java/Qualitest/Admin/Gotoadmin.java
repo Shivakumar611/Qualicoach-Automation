@@ -1,4 +1,4 @@
-package Qualitest.Mavenjava;
+package Qualitest.Admin;
 
 import org.openqa.selenium.By;
 

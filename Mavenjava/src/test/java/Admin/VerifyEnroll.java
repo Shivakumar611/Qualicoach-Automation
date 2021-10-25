@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.Test;
 
-import Qualitest.Mavenjava.Initialization;
-import Qualitest.Mavenjava.UserEnroll;
+import Qualitest.Admin.Initialization;
+import Qualitest.Admin.UserEnroll;
 
 public class VerifyEnroll  {
 

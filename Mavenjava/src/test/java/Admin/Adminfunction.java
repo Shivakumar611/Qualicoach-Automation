@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.testng.annotations.Test;
 
-import Qualitest.Mavenjava.Initialization;
+import Qualitest.Admin.Initialization;
 
 public class Adminfunction extends Initialization {
 

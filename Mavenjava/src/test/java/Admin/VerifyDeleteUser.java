@@ -5,8 +5,8 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import Qualitest.Mavenjava.DeleteUser;
-import Qualitest.Mavenjava.Initialization;
+import Qualitest.Admin.DeleteUser;
+import Qualitest.Admin.Initialization;
 
 public class VerifyDeleteUser {
 	

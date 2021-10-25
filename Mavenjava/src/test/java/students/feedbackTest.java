@@ -13,8 +13,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import Qualitest.Mavenjava.Initialization;
-import Qualitest.Mavenjava.LoginPage;
+import Qualitest.Admin.Initialization;
+import Qualitest.Admin.LoginPage;
 import pageobjects.feedbackobject;
 
 @Test

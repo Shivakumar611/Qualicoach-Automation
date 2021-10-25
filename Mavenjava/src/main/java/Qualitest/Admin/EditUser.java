@@ -1,4 +1,4 @@
-package Qualitest.Mavenjava;
+package Qualitest.Admin;
 
 import java.io.FileInputStream;
 
