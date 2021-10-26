@@ -51,7 +51,7 @@ public class DeleteUser extends Gotoadmin {
 			driver.findElement(row).click();
 			driver.findElement(delete).click();
 		} catch (Exception e) {
-			System.out.println("Exception handled");
+			System.out.println("No User found to delete");
 
 		}
 		Assert.assertAll();

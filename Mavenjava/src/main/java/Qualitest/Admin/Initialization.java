@@ -7,6 +7,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 
 public class Initialization {
@@ -26,7 +27,9 @@ public class Initialization {
 	
 	// Driver Initialization 
 		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("headless");
+		driver = new ChromeDriver(options);
 		driver.get("https://test.qualicoach.org");
 		log.info("driver initilized");
 		driver.manage().window().maximize();
