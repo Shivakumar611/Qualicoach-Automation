@@ -37,7 +37,7 @@ public class EditUser extends Gotoadmin {
 	public void getEditUser() throws IOException {
 		SoftAssert Assert = new SoftAssert();
 		Properties p=new Properties();
-		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Admin\\input.properties");
+		FileInputStream f1 = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Qualitest\\Admin\\input.properties");
 		p.load(f1);
 	//Login page execting along with going to dashboard
 		LoginPage l=new LoginPage(driver);
@@ -58,7 +58,7 @@ public class EditUser extends Gotoadmin {
 		Select dropdown = new Select(drop);
 		dropdown.selectByValue("IN");
 		js.executeScript("window.scrollBy(0,1000)");
-		driver.findElement(update).click();
+		driver.findElement(update).click(); 
 		}catch(Exception e) {
 			System.out.println("Exception handled for edit user"+e);
 			

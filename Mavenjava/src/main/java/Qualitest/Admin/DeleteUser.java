@@ -34,10 +34,9 @@ public class DeleteUser extends Gotoadmin {
 	public void getDelete() throws IOException {
 		SoftAssert Assert = new SoftAssert();
 		Properties p = new Properties();
-		FileInputStream f1 = new FileInputStream(
-				"C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Admin\\input.properties");
+		FileInputStream f1 = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Qualitest\\Admin\\input.properties");
 		p.load(f1);
-
+ 
 		LoginPage l = new LoginPage(driver);
 		l.GenericLogin(p.getProperty("admin"), p.getProperty("adminpass"));
 		getDashboard();

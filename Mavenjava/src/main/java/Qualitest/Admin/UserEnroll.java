@@ -50,7 +50,7 @@ public class UserEnroll extends Gotoadmin {
 		
 	// Driver Initialization and User Login from Generic Function
 		Properties p=new Properties();
-		FileInputStream f1=new FileInputStream("C:\\Users\\Shivu\\git\\repository3\\Mavenjava\\src\\main\\java\\Qualitest\\Admin\\input.properties");
+		FileInputStream f1 = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Qualitest\\Admin\\input.properties");
 		p.load(f1);
 	//Going to Login Page and admin dash board
 		LoginPage l=new LoginPage(driver);

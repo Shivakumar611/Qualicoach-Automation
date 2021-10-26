@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Admin.VerifyDeleteUser">
+      <class name="Admin.VerifyCourse">
         <methods>
-          <include name="VerifyDeleteTest"/>
+          <include name="VerifyUserTest"/>
         </methods>
-      </class> <!-- Admin.VerifyDeleteUser -->
+      </class> <!-- Admin.VerifyCourse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
