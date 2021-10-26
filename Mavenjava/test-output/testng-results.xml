@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60896" started-at="2021-10-26T11:31:12 IST" finished-at="2021-10-26T11:32:12 IST">
+  <suite name="Default suite" duration-ms="51208" started-at="2021-10-26T12:39:02 IST" finished-at="2021-10-26T12:39:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60896" started-at="2021-10-26T11:31:12 IST" finished-at="2021-10-26T11:32:12 IST">
-      <class name="Admin.VerifyCourse">
-        <test-method status="PASS" signature="VerifyUserTest()[pri:0, instance:Admin.VerifyCourse@3e57cd70]" name="VerifyUserTest" duration-ms="60853" started-at="2021-10-26T11:31:12 IST" finished-at="2021-10-26T11:32:12 IST">
+    <test name="Default test" duration-ms="51208" started-at="2021-10-26T12:39:02 IST" finished-at="2021-10-26T12:39:54 IST">
+      <class name="Admin.VerifyDeleteUser">
+        <test-method status="PASS" signature="VerifyDeleteTest()[pri:0, instance:Admin.VerifyDeleteUser@3e57cd70]" name="VerifyDeleteTest" duration-ms="51165" started-at="2021-10-26T12:39:02 IST" finished-at="2021-10-26T12:39:54 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyUserTest -->
-      </class> <!-- Admin.VerifyCourse -->
+        </test-method> <!-- VerifyDeleteTest -->
+      </class> <!-- Admin.VerifyDeleteUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
